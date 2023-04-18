@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgba(0, 51, 51, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header/logo Title */
+.header {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(165, 93, 53), rgba(0, 51, 51));
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+  font-family: 'Calistoga', cursive;
+  font-weight: bold;
+
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(165, 93, 53);
+  font-family: 'Carter One', cursive;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #8e593c;
+  color: #301e14;
+}
+
+
+.custom-title {
+  border-bottom: 3px solid rgba(165, 93, 53);
+  width: 900px;
+  height: 100px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: #301e14;
+ font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+ }
+	.custom-text {
+  width: 800px;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  color: #301e14;
+  font-family: 'IBM Plex Mono', monospace;
+}
+ 
+ .indent{
+ text-indent: 40px;
+ text-align: justify;
+ }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-no-logo{
+align-items: center; 
+}
+
+
+/* Main column */
+    main {
+     padding: 1em 0em;
+	  background: rgba(20, 54, 18, 0.2);
+	  color: white;
+	  }
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+  .logo-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	}
+  
+  ol li {
+  text-align: justify;
+  }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(165, 93, 53);
+  color: white;
+  font-size: 10px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+  
+  .header {
+  height: 50%;
+  width: 100%;
+  font-size: 20px;
+  padding: 100px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.custom-title {
+  width: 70%;
+  height: 100%;
+  font-size: 30px;
+ }
+	.custom-text {
+  width:70%;
+  font-size: 10px;
+}
+.image-no-logo img{
+width: 70%
+}
+
+.logo-wrapper{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-wrapper img {
+width: 40%
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ALL ABOUT ACOUSTIC GUITAR</h1>
+  <p>Jennifer Gimutao</p>
+</div>
+
+<div class="navbar">
+  <a href="https://mage-historian.github.io/jennifer-gimutao/">Home</a>
+  <a href="https://mage-historian.github.io/jennifer-gimutao/gallery.html">Gallery</a>
+  <a href="#">How It Works</a>
+  <a href="#" class="right">About Me</a>
+</div>
+<main>
+<div class="custom-title">
+How Does a Guitar Work?
+</div>
+<div class="custom-text">
+<p class="indent">An acoustic guitar works by converting the vibration of the strings into sound waves that are amplified by the body of the guitar. When a string is plucked, it vibrates back and forth, producing sound waves that travel through the air. However, these sound waves are very weak and difficult to hear without amplification. This is where the body of the guitar comes in. The body of an acoustic guitar is designed to resonate with the sound waves produced by the strings, amplifying them and making them louder. The body of the guitar is made up of a top, back, and sides, all of which contribute to the sound of the guitar. The soundboard or top of the guitar is the most important part of the guitar's body, responsible for producing the majority of the sound. The top vibrates in response to the strings, and its shape and thickness determine the tone and volume of the guitar. The back and sides of the guitar also vibrate in response to the strings, reinforcing and reflecting the sound produced by the top. The sound produced by an acoustic guitar is also affected by other factors such as the length, tension, and thickness of the strings, the type of wood used in the guitar's construction, and the placement of the soundhole. Additionally, the design of the guitar's bracing, which supports the top and back of the guitar, can have a significant impact on the sound produced. Overall, an acoustic guitar is a relatively simple instrument that works by converting the vibration of the strings into sound waves that are amplified by the body of the guitar. The unique design and construction of each guitar contribute to its tone and character, making it a versatile and expressive instrument for musicians of all skill levels. </p></p>
+</div>
+
+<div class="custom-title">
+ACOUSTIC GUITAR
+</div>
+<div class="custom-text">
+<div class="image-no-logo">
+<img src="https://invention.si.edu/sites/default/files/exhibitions-inventing-the-electric-guitar-how-it-works_acoust.jpg" alt="Surprising Benefits of Music to Health" class="center" width="500px">
+</div>
+<p class="indent"> The acoustic guitar, which is not electrified, is the predecessor of the electric guitar and has been around for centuries. The modern Spanish-style six-string acoustic guitar, which was developed in the 1800s, is an example of this instrument. In the 19th century, steel strings were introduced to replace the traditional gut strings. When the strings are struck, they vibrate, and this vibration produces sound. The soundboard receives the vibration through the bridge, and the guitar's hollow body amplifies the sound. The pitch of the vibrating strings depends on factors such as the mass, tension, and length of the strings. On a steel-string guitar, the lower strings are thicker, and tuning them changes the tension, which affects the pitch. Pressing down on the frets changes the length of the vibrating string, and this, in turn, changes the pitch of the sound. The closer the fret is to the sound hole, the shorter the vibrating string, and the higher the pitch.</p>
+</div>
+
+<div class="custom-title">
+ELECTRONIC-ACOUSTIC
+</div>
+<div class="custom-text">
+<div class="image-no-logo">
+<img src="https://invention.si.edu/sites/default/files/work_hollow.jpg" alt="Surprising Benefits of Music to Health" class="center" width="500px">
+</div>
+<p class="indent">In the quest for a louder guitar, guitar makers and players have explored various avenues, and one of the most successful has been electronic amplification. Early electronic experiments from the 1920s and 1930s involved attaching pickups to acoustic guitars. An electric-acoustic guitar, also known as a hollow-body electric guitar, was developed as a result of these experiments. Pickups are a crucial component in electric guitars and were developed by pioneers such as George Beauchamp and Paul Barth. The first successful electromagnetic pickup system was used in the Rickenbacker Frying Pan guitar, which was introduced in 1932. Today, pickups are electromagnets that are placed under the guitar strings to sense their vibrations and convert them into electrical signals. These signals travel through a cable to an amplifier, which increases the volume of the sound produced. There are two types of pickups: single-coil and double-coil or humbucking pickups, which produce a fuller sound. </p>
+</div>
+
+<div class="custom-title">
+SOLID-BODY ELECTRONIC GUITAR
+</div>
+<div class="custom-text">
+<div class="image-no-logo">
+<img src="https://invention.si.edu/sites/default/files/exhibitions-inventing-the-electric-guitar-how-it-works_solid.jpg" alt="Solid-body guitar" class="center" width="500px">
+</div>
+<p class="indent">During the 1940s, makers and players were determined to increase the electric guitar's volume. The hollow guitar's vibrations from the strings and the body created confusion for the pickup. Thus, the solid-body guitar was born. The solid body has a considerable mass, which barely responds to the strings' vibrations, allowing the pickup to produce a pure tone. When plugged into an amplifier, the pickups' electrical impulses are converted into sound. Additional sound effects boxes, such as the fuzz box, can distort the signal, resulting in different sounds produced by the amplifier.</p>
+</div>
+
+<div class="custom-title">
+ELECTRONIC ACOUSTIC
+</div>
+<div class="custom-text">
+<div class="image-no-logo">
+<img src="https://invention.si.edu/sites/default/files/exhibitions-inventing-the-electric-guitar-how-it-works-hawaii.jpg" alt="Electronic Guitar" class="center" width="500px">
+</div>
+<p class="indent">In the United States circa 1900, a novel type of guitar known as the Hawaiian or steel guitar emerged. The innovative design of this instrument involved sliding a steel bar horizontally across the strings, which was a much simpler method of playing compared to traditional fingerpicking. As a result, it gained widespread acceptance among students and musicians alike, particularly those in the country and blues genres, who were drawn to the mesmerizing sound produced by sliding between notes. By the 1930s, the Hawaiian guitar had become the foremost electric guitar model, with solid wood construction, which was not commercially viable for Spanish-style guitars until the 1950s, becoming the norm. </p>
+</div>
+
+<div class="custom-title">
+Where to Learn?
+</div>
+<div class="custom-text"> 
+<p class="indent"> With today's technology, learning how to play acoustic guitar is pretty easy as it is always just one click away from our hands. The following are some of the android applications you may use as a starting step:</p>
+<div class="logo-wrapper">
+<a href="https://play.google.com/store/apps/details?id=com.yousician.yousician&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/rNP4HPl_2H68Jeww7XiK_6_IiUsp-rbTtUK-CM1DAIv2_dB6IpzglRyPqGGnfUjYirc" alt="Yousician for Android" class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.ovelin.guitartuna&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/fncHoaxMdpJoXVs61jdTSugZDtyPL_gqA2TxcwkKXvr80ixqw-cSgO8Bwq9zltH4CObC" alt="GuitarTuna" class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.joytunes.simplyguitar&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/KDTmzVLjTbfY7zJeCNoNyHPqbbmcXVzYHvzU-_hpydmp1msgSg_JRMNHOsUYRu2iCUg" alt="Simply Guitar" class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=br.com.rodrigokolb.realguitar&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/0f_xpnlcb_KfnW8X3yUEE_0dvYpyFYJq13KTBiT49ilBdHrJIk-ZCMQgaq6cdcf0hw" alt="Real Guitar " class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.fender.play&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/Jgqpv3Sf_X-obxZj6W_zom--Ges_zyWdHY-n3I6qIZqYPz_t0wkhbZXoxTtgG1IqgtQ" alt="Real Guitar " class="center" width="100px">
+</a>
+</div>
+<p> Try these applications today and learn the wisdom of acoustic!</p>
+</div>
+
+</main>
+
+<div class="footer">
+  <h2>All About Acoustic Guitar by Jennifer Gimutao (2023). All Rights Reserved.</h2>
+</div>
+
+</body>
+</html>
