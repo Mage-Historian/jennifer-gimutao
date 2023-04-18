@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgba(0, 51, 51, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header/logo Title */
+.header {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(165, 93, 53, 0.7), rgba(0, 51, 51, 0.7)), url('https://wallpapercave.com/wp/iMzeNMh.jpg') no-repeat center center scroll;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: white;
+  padding: 100px;
+  
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 80px;
+  font-family: 'Calistoga', cursive;
+  font-weight: bold;
+
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(165, 93, 53);
+  font-family: 'Carter One', cursive;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #8e593c;
+  color: #301e14;
+}
+
+
+.custom-title {
+  border-bottom: 3px solid rgba(165, 93, 53);
+  width: 900px;
+  height: 100px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  color: #301e14;
+ font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+ }
+	.custom-text {
+  width: 800px;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  color: #301e14;
+  font-family: 'IBM Plex Mono', monospace;
+}
+ 
+ .indent{
+ text-indent: 40px;
+ text-align: justify;
+ }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-no-logo{
+align-items: center; 
+}
+
+
+/* Main column */
+    main {
+     padding: 1em 0em;
+	  background: rgba(20, 54, 18, 0.2);
+	  color: white;
+	  }
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+  .logo-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	}
+  
+  ol li {
+  text-align: justify;
+  }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(165, 93, 53);
+  color: white;
+  font-size: 10px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+  
+  .header {
+  height: 50%;
+  width: 100%;
+  font-size: 20px;
+  padding: 100px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.custom-title {
+  width: 70%;
+  height: 100%;
+  font-size: 30px;
+ }
+	.custom-text {
+  width:70%;
+  font-size: 10px;
+}
+.image-no-logo img{
+width: 70%
+}
+
+.logo-wrapper{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-wrapper img {
+width: 40%
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ALL ABOUT ACOUSTIC GUITAR</h1>
+  <p>Jennifer Gimutao</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Gallery</a>
+  <a href="#">My Work</a>
+  <a href="#" class="right">About Me</a>
+</div>
+<main>
+<div class="custom-title">
+Brief Background
+</div>
+<div class="custom-text">
+<p class="indent">Acoustic guitars have been an integral part of the music industry for centuries, and their unique sound and versatility make them a popular choice for musicians of all genres. The guitar's evolution can be traced back to the 16th century in Spain, where it originated from the <i>guitarra latina</i>, a late-medieval instrument with a waisted body and four strings. Today, there are many options for traveling musicians who need a portable guitar, including Martin Steel String, Traveler Guitar Travel Guitar, Journey Instruments OF660M, and Cordoba Mini-M. LR Baggs has also recently released a new HiFi acoustic guitar pickup system for exceptional sound quality. Good design principles dictate that consistency is key, and this applies to acoustic guitar design as well. Whether you're a beginner or a professional, it's important to find the right guitar that fits your needs and style. So, whether you're looking for advice on how to start an essay about acoustic guitars or want to learn more about this beautiful instrument, you've come to the right place!</p>
+</div>
+
+<div class="custom-title">
+Why Acoustic Guitar?
+</div>
+<div class="custom-text">
+<div class="image-no-logo">
+<img src="https://www.gannett-cdn.com/authoring/2009/06/19/NREP/ghows-OH-3e776760-76d5-4d7a-a5a2-c841f6c66fe0-838c4cd8.jpeg" alt="Surprising Benefits of Music to Health" class="center" width="500px">
+</div>
+<p class="indent"> Acoustic guitars have been a popular musical instrument for many years, and for good reason. There are several advantages to playing an acoustic guitar, some of which are outlined below using the provided web search results: <br>
+<ol type="1">
+<li> <strong>Portability:</strong> Acoustic guitars are easy to carry around, making them ideal for gigs, jam sessions, or even playing on the beach. They don't require any additional equipment such as amplifiers or cables, making them easy to set up and play at any time.</li>
+<li> <strong>Affordability:</strong> Compared to electric guitars, acoustic guitars tend to be less expensive, making them more accessible for beginners or musicians on a budget. There are also many good quality budget models available that still provide a great sound and playability.</li>
+<li> <strong>Versatility:</strong> Acoustic guitars can be used to play a wide range of genres, from folk and country to rock and pop. They are suitable for both solo playing and accompanying singers or other musicians, making them a versatile instrument for any musician.</li>
+<li> <strong>Tone:</strong> Acoustic guitars produce a warm, natural sound that is pleasing to the ear. The resonance and sustain of an acoustic guitar create a unique tone that is difficult to replicate with any other instrument. </li>
+<li><strong>Acoustic vs Acoustic-Electric:</strong> While acoustic-electric guitars offer the convenience of being able to plug into an amplifier or sound system, many musicians still prefer the sound and feel of a traditional acoustic guitar.</li>
+</ol>
+</p>
+<p class="indent">In summary, playing an acoustic guitar offers many benefits such as portability, affordability, versatility, and unique tonal qualities. Regardless of your skill level or musical preferences, an acoustic guitar is a great choice for any musician.</p>
+</div>
+
+<div class="custom-title">
+Where to Learn?
+</div>
+<div class="custom-text"> 
+<p class="indent"> With today's technology, learning how to play acoustic guitar is pretty easy as it is always just one click away from our hands. The following are some of the android applications you may use as a starting step:</p>
+<div class="logo-wrapper">
+<a href="https://play.google.com/store/apps/details?id=com.yousician.yousician&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/rNP4HPl_2H68Jeww7XiK_6_IiUsp-rbTtUK-CM1DAIv2_dB6IpzglRyPqGGnfUjYirc" alt="Yousician for Android" class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.ovelin.guitartuna&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/fncHoaxMdpJoXVs61jdTSugZDtyPL_gqA2TxcwkKXvr80ixqw-cSgO8Bwq9zltH4CObC" alt="GuitarTuna" class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.joytunes.simplyguitar&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/KDTmzVLjTbfY7zJeCNoNyHPqbbmcXVzYHvzU-_hpydmp1msgSg_JRMNHOsUYRu2iCUg" alt="Simply Guitar" class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=br.com.rodrigokolb.realguitar&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/0f_xpnlcb_KfnW8X3yUEE_0dvYpyFYJq13KTBiT49ilBdHrJIk-ZCMQgaq6cdcf0hw" alt="Real Guitar " class="center" width="100px">
+</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.fender.play&hl=en&gl=US">
+<img src="https://play-lh.googleusercontent.com/Jgqpv3Sf_X-obxZj6W_zom--Ges_zyWdHY-n3I6qIZqYPz_t0wkhbZXoxTtgG1IqgtQ" alt="Real Guitar " class="center" width="100px">
+</a>
+</div>
+<p> Try these applications today and learn the wisdom of acoustic!</p>
+</div>
+
+</main>
+
+<div class="footer">
+  <h2>All About Acoustic Guitar by Jennifer Gimutao (2023). All Rights Reserved.</h2>
+</div>
+
+</body>
+</html>
